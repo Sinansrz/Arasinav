@@ -1,0 +1,51 @@
+---
+title: "Türkiye ve Göç"
+author: 
+  - SINA NASIRZADEHMASOULEH[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 18080359, [Github Repo](https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ)
+
+
+# Giriş
+
+Göç, dünyanın tarihi kadar eski bir kavramdır. Göç sadece modern bir tarihin meselesi değildir,bilim insanlara göre modern öncesi göçünün, yaklaşık 1,75 milyon yıl önce Homo Erectus'un Afrika'dan Avrasya'ya göçüyle başladığını ifade etmektedir @Henshilwood:2008 . Tanım olarak göç bir yerden başka bir yere yerleşmek demektir, göç eden kişiye de göçmen denir . Göç farklı şekillerde sınıflandırmaktadır ancak en yaygın olarak, göçü iki sınıfta koymak mümkündür : İç göç ve dış göç. farklı bir yaygın sınıflandırma ise gönüllü göç ve zorunlu göçtür . Göç için farklı sınıflandırma var iken, amaç çok basit bir şekilde ifade edilir, göç daha iyi bir yaşam için gerçekleşir @Kose:2017  Daha iyi bir yaşam şartlar sadece ekonomik sebepler değiller, örneğin bir bölgede endemik bir hastalıktan dolayı o bölgenin yaşayanları göç etmeye zorunda bırakıyor; bazen savaşlar göçe sebebiyet verir, örneğin Suriye’nin İç Savaşı. Göç siyaset ve ekonomi üzerinde çok önemli etkileri vardır, göç bir ülkenin ekonomisini canlandırabilir ayrıca yanlış politikalar sayesinde bu fırsat, ekonomi için bir tehdit olabilir. Türkiye’de göç tarihi çok eski bir kavramdır ve Türkiye’nin özel bir jeopolitik konuma sahip olduğu için her zaman göçmenlere cazip gelmektedir. 
+
+## Çalışmanın Amacı
+Bugünlerde tüm dünyada göç tartışma konusudur. Son yıllarda Türkiye'ye dıştan gelen göçmenler bir tartışma mevzusu olmuşlardır. Bu çalışmada Türkiye üzerinde göçmenlerinin etkilerini inceleceğiz.  Göç, seçimlerinin yönlerini değiştiren bir öneme sahiptir. 2011 yılında Suriye'nin İç Savaşı başladığı zaman Türkiye'ye büyük göç akımları da başladı. Bu çalışmada Türkiye üzerinde göçün etkilerini inceleyeceğiz
+
+## Literatür 
+Türkiye'de göç çok eski tarihinde başlayan bir süreçtir ve antik Yunan Döneminde dayanan tarihsel bir vakıadır ; Hem iç göç hem de dış göç Türkiye'nin sosyal ve ekonomik yapıyı dinamik bir şekilde etilemektedir @Kocak:2012 . Suriye'deki İç Savaşı bir mülteci buhranına sebebiyet veren bir olay olup ve yaklaşık 6.8 milyon kişi yer değiştirmeye zorunda kalmışlar, şuanda sadece Türkiye'de yaklaşık 3.5 milyon kayıtlı Suriyeli mülteci bulunmaktadır @Goc ve en çok Suriyeli İstanbul'da yaşamaktadırlar @RefugeeAssociation:2022
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
